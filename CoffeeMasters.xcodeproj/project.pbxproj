@@ -11,6 +11,7 @@
 		6B7ED0142C26DA6600AF7384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7ED0132C26DA6600AF7384 /* ContentView.swift */; };
 		6B7ED0162C26DA6900AF7384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7ED0152C26DA6900AF7384 /* Assets.xcassets */; };
 		6B7ED0192C26DA6900AF7384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7ED0182C26DA6900AF7384 /* Preview Assets.xcassets */; };
+		6B8C3B952C27235400573AC0 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C3B942C27235400573AC0 /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6B7ED0132C26DA6600AF7384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B7ED0152C26DA6900AF7384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B7ED0182C26DA6900AF7384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B8C3B942C27235400573AC0 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6B7ED0112C26DA6600AF7384 /* CoffeeMastersApp.swift */,
 				6B7ED0132C26DA6600AF7384 /* ContentView.swift */,
+				6B8C3B942C27235400573AC0 /* Offer.swift */,
 				6B7ED0152C26DA6900AF7384 /* Assets.xcassets */,
 				6B7ED0172C26DA6900AF7384 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B8C3B952C27235400573AC0 /* Offer.swift in Sources */,
 				6B7ED0142C26DA6600AF7384 /* ContentView.swift in Sources */,
 				6B7ED0122C26DA6600AF7384 /* CoffeeMastersApp.swift in Sources */,
 			);
@@ -286,9 +290,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tushar.test.CoffeeMasters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,9 +322,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tushar.test.CoffeeMasters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
